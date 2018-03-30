@@ -4,7 +4,8 @@
   "description": "Format a TAP stream using Mocha's set of reporters",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap test/*.js",
+    "git-reset": "git reset --hard HEAD && git clean -df && git pull"
   },
   "repository": {
     "type": "git",
